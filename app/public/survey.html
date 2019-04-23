@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.js"></script>
+    <script src="../server.js"></script>
+    <script src="../data/friends.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body style="padding:20px;">
+    <h1>Survey Questions</h1>
+    <h2>About you!</h2>
+    <h3>Name(Required)</h3>
+    <input type="text" id="name" class="form control" required>
+    <h4>Link to Photo Image(required)</h4>
+    <input type="text" id="photo" class="form-control" required>
+    <h3>Question 1</h3>
+    <h4>How much are you into sports?</h4>
+    <form>
+            <div  id="q1" class="form-group">
+                <label for="exampleFormControlSelect1">Choose the best answer</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>1(Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5(Strongly Agree)</option>
+                </select>
+            </div>
+        </form>
+    <h3>Question 2</h3>
+    <h4>How much do you play an video games</h4>
+    <form>
+        <div id="q2" class="form-group">
+            <label for="exampleFormControlSelect1">Choose the best answer</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>1(Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5(Strongly Agree)</option>
+            </select>
+        </div>
+    </form>
+    <h3>Question 3</h3>
+    <h4>How often do you exercise?</h4>
+    <form>
+        <div id="q3" class="form-group">
+            <label for="exampleFormControlSelect1">Choose the best answer</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>1(Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5(Strongly Agree)</option>
+            </select>
+        </div>
+    </form>
+    <h3>Question 4</h3>
+    <h4>How often do you like to Travel?</h4>
+    <form>
+        <div id="q4" class="form-group">
+            <label for="exampleFormControlSelect1">Choose the best answer</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>1(Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5(Strongly Agree)</option>
+            </select>
+        </div>
+    </form>
+    <h3>Question 5</h3>
+    <h4>How often do you eat out?</h4>
+    <form>
+        <div id="q5" class="form-group">
+            <label for="exampleFormControlSelect1">Choose the best answer</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>1(Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5(Strongly Agree)</option>
+            </select>
+        </div>
+    </form>
+    <h3>Question 6</h3>
+    <h4>How often do you go to the movies?</h4>
+    <form>
+        <div id="q6" class="form-group">
+            <label for="exampleFormControlSelect1">Choose the best answer</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>1(Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5(Strongly Agree)</option>
+            </select>
+        </div>
+    </form>
+    <h3>Question 7</h3>
+    <h4>How often do you drink alcohol?</h4>
+    <form>
+        <div id="q7" class="form-group">
+            <label for="exampleFormControlSelect1">Choose the best answer</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>1(Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5(Strongly Agree)</option>
+            </select>
+        </div>
+    </form>
+    <h3>Question 8</h3>
+    <h4>How often do you read?</h4>
+    <form>
+        <div id="q8" class="form-group">
+            <label for="exampleFormControlSelect1">Choose the best answer</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>1(Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5(Strongly Agree)</option>
+            </select>
+        </div>
+    </form>
+    <h3>Question 9</h3>
+    <h4>How often do you watch Tv</h4>
+    <form>
+        <div id="q9" class="form-group">
+            <label for="exampleFormControlSelect(Strongly Disagree)">Choose the best answer</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>1(Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5(Strongly Agree)</option>
+            </select>
+        </div>
+    </form>
+    <h3>Question 10</h3>
+    <h4>How often do you post on Social Media?</h4>
+    <form>
+        <div id="q10" class="form-group">
+            <label for="exampleFormControlSelect1">Choose the best answer</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>1(Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5(Strongly Agree)</option>
+            </select>
+        </div>
+    </form>
+    <button id="submitButton" type="button" class="btn btn-dark btn-lg btn-block">Submit</button>
+    <script type="text/javascript">
+      
+        $("#submitButton").on("click", function(event) {
+          event.preventDefault();
+      
+          var newFriend = {
+            nameData: $("#name").val().trim(),
+            picData: $("#photo").val().trim(),
+            friendScore: [
+    
+    $("q1").val(),
+    $("q2").val(),
+    $("q3").val(),
+    $("q4").val(),
+    $("q5").val(),
+    $("q6").val(),
+    $("q7").val(),
+    $("q8").val(),
+    $("q9").val(),
+    $("q10").val(),
+]
+          };
+      
+          console.log(newFriend);
+            
+          $.post("/data/friends.js", newFriend,
+            function(data) {
+      
+              if (data) {
+                alert("A new friend was added");
+              }
+                    else {
+                alert("its not me its you!");
+              }
+      
+              $("#name").val("");
+              $("#photo").val("");
+              [
+    
+            $("q1").val(),
+            $("q2").val(),
+            $("q3").val(),
+            $("q4").val(),
+            $("q5").val(),
+            $("q6").val(),
+            $("q7").val(),
+            $("q8").val(),
+            $("q9").val(),
+            $("q10").val(),
+        ]
+      
+            });
+      
+        });
+      
+      </script>
+</body>
+
+</html>
